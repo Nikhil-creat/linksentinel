@@ -1,0 +1,3 @@
+const SEC=[["Sliding-window limiter","Redis + Lua, per hashed IP / key"],["SSRF guard","Private, loopback, link-local blocked on every hop"],["JWT + RBAC","12h tokens, admin/pro/free roles"],["API keys","Shown once, only SHA-256 stored"],["GDPR hashing","Salted SHA-256 IPs, no raw storage"],["Security headers","HSTS, nosniff, frame deny, no-referrer"],["Quarantine","Auto-block at threat ≥ 0.7, admin release"],["Pydantic v2","Strict validation on every input"],["Container isolation","Non-root image, healthchecks, private network"]];
+const feat=$("feat");
+SEC.forEach(([t,d],i)=>feat.insertAdjacentHTML("beforeend",`<div class="t"><div class="k">0${i+1}</div><h3>${t}</h3><p>${d}</p></div>`));

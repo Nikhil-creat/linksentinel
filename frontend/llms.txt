@@ -1,0 +1,15 @@
+# LinkSentinel
+
+> AI-powered URL shortener with an agentic threat shield (reputation scanner, CNN inspection hooks, preview agent) and RAG analytics over click data. Built with FastAPI, PostgreSQL + pgvector, Redis, Celery and Docker by Nikhil Chary Sriramoju.
+
+## Pages
+- [Home](%SITE%/): overview
+- [Threat Shield](%SITE%/threat-shield): Score any URL for phishing signals.
+- [Console](%SITE%/console): Dashboard, RAG chat over click data, API keys.
+- [Security](%SITE%/security): Agents, SSRF guard, rate limiting, RBAC, hashing.
+- [Roadmap](%SITE%/roadmap): Access roles and what ships next.
+- [About](%SITE%/about): The builder: Nikhil Chary Sriramoju.
+
+## Source
+- [GitHub repository](https://github.com/Nikhil-creat/linksentinel): code and README
+- [Sitemap](%SITE%/sitemap.xml)
